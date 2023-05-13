@@ -5,29 +5,29 @@
 
     background-color: aliceblue;
 	margin: 0px;
-	padding: 15px;
+	padding: 10px;
 
     list-style-type: none;
+ 
     
   
 }
 #nav li {
 	display:inline;
-	padding: 10px;
-	margin: 10px;
+	padding: 20px;
+	margin: 20px;
     
     font-size: larger;
     
 }
 .topnav-left {
-    padding: 120px
-    float; left;  
+    padding: 5px
+     
 }
 
 .topnav-right {
-    
-    float: right;
 
+    float: right
 }
 
 
@@ -75,6 +75,40 @@ p {
   background-color: aliceblue;
   
 
+}
+#footer-nav {
+
+    background-color: aliceblue;
+	margin: 0px;
+	padding: 10px;
+
+    list-style-type: none;
+    
+  
+}
+#footer-nav li {
+	display:inline;
+	padding: 20px;
+	margin: 20px;
+    
+    font-size: larger;
+    
+}
+.footernav-left {
+    padding: 0px 
+}
+
+.footernav-right {
+    
+    float: right;
+
+}
+
+
+#footer-nav a:hover,
+#footer-nav a:focus {
+	color:#fff;
+	background:#727454;
 }
 
 
