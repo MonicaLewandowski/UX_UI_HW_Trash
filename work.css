@@ -1,0 +1,148 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+  /* Header Styles */
+  header {
+    background-color: #FEE2E2;
+    height: 91px;
+    border-top: 10px solid #7D5260;
+    display: flex;
+    align-items: center;
+    
+    
+    
+  }
+  
+  .logo img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+  
+  h1 {
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Navigation Styles */
+nav {
+    background-color: #7D5260;
+    height: 48px;
+    border-top: #7D5260 solid;
+  
+    
+    }
+    
+    .menu {
+      list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px;
+    margin: 1px;
+    }
+    
+    .menu li a {
+    color: #FFF;
+    text-decoration: none;
+    list-style: none;
+    }
+    
+
+.container {
+ height: 100vh;
+ display: grid;
+ gap: 1 rem;
+ grid-template-columns: auto;
+ grid-template-rows: auto;
+}
+
+    /* Hero Section Styles */
+    .hero {
+    display: flex;
+    grid-template-columns: span 2;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+    
+    }
+  
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto
+      
+  
+    }
+
+    .card {
+      background-color: wheat;
+
+    }
+
+
+    /* Section 2 Styles */
+    .section2 {
+    background-color: rgba(232, 176, 154, 0.231);
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    
+    }
+    .content {
+      text-align: center;
+    }
+    
+    /* Section 3 Styles */
+    .section3 {
+    display: grid;
+    grid-template-columns: span 2;
+   
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+   
+    }
+    
+    /* Section 4 Styles */
+    .section4 {
+     
+    text-align: center;
+    background-color: rgba(196, 196, 196, 0.45);
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 30px;
+    }
+    
+    /* Footer Styles */
+
+  
+
+
+    footer {
+    background-color: #F9DEDC;
+    height: 70px;
+    border-top: 15px solid #7D5260;
+    border-bottom: 15px solid #7D5260;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .social-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    }
+    
+    .social-links li a {
+    color: #000;
+    text-decoration: none;
+    }
+  

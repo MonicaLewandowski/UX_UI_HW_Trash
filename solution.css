@@ -1,5 +1,42 @@
 
 
+h1 {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: inline-block;
+    vertical-align: top;
+    width: 73%;
+    padding: 1%;
+}
+
+.logo1 { 
+    width: 23%;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
+
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+     
+}
+
+.nav {
+    width: 50%;
+    margin-left: auto;
+}
 
 #nav {
     background-color: aliceblue;
@@ -10,6 +47,8 @@
  }
  
 #nav li {
+    width: 50%;
+    margin-left: auto;
 	display:inline;
 	padding: 20px;
 	margin: 20px;
@@ -20,10 +59,6 @@
 .topnav-left {
     padding: 5px
      
-}
-#site {
-    margin-left: 50%;
-    margin-right: 50%;
 }
 
 .topnav-right {
@@ -42,30 +77,34 @@ img {
  
     border: pink solid 5px;
     margin-top: 5%;
+
 }
 
 .bio {
     background-color: rgba(31, 195, 232, 0.244);
-    padding: 20px;
-    margin: 40px
-
+    padding: 10px;
+    margin: 0 auto
 }
 
 .Monica-Name {
     text-align: center;
 }
 
-.center {
+.headshot {
+    height: 600px;
+    padding: 25px;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
+   text-align: center;
 }
 
 p {
     font-weight: 300;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
+    text-align: center;
     
 }
 
@@ -79,7 +118,7 @@ p {
 }
 #footer-nav {
 
-    background-color: aliceblue;
+    background-color: #373738;
    
     margin: 0px;
 	padding: 10px;
@@ -88,10 +127,10 @@ p {
   
 }
 #footer-nav li {
-	display:inline;
+	display:inline-block;
 	padding: 20px;
-	margin: 20px;
-    vertical-align: bottom;
+	margin: 0px;
+    vertical-align: top;
     font-size: larger;
     
 }
@@ -111,4 +150,3 @@ p {
 	color:#fff;
 	background:#727454;
 }
-
